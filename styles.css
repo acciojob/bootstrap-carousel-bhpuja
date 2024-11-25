@@ -1,60 +1,39 @@
 
-/* Ensure the carousel and its slides are properly sized */
-#myCarousel {
-    width: 100%; /* Full width */
-    max-width: 800px; /* Limit the max width */
-    margin: 0 auto; /* Center the carousel horizontally */
-}
-
-.carousel-inner {
+/* Optional: Style for the carousel and its content */
+.carousel-item img {
     width: 100%;
-    height: 400px; /* Set height of the carousel */
+    height: auto;
 }
 
-/* Add some padding to the carousel text */
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Styling for carousel control arrows */
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    z-index: 5;
-    transform: translateY(-50%);
-    font-size: 30px;
-    color: white;
-}
-
-/* Left arrow */
-.carousel-control.left {
-    left: 0;
-}
-
-/* Right arrow */
-.carousel-control.right {
-    right: 0;
-}
-
-/* Optional: add background colors or borders for each slide */
+/* Add custom styles for each slide */
 .first-slide {
-    background-color: #ffcccc; /* Example: red background */
+    background-color: #f1f1f1;
 }
 
 .second-slide {
-    background-color: #cce7ff; /* Example: blue background */
+    background-color: #e2e2e2;
 }
 
 .third-slide {
-    background-color: #d9ffcc; /* Example: green background */
+    background-color: #c3c3c3;
 }
 
 .fourth-slide {
-    background-color: #fff0b3; /* Example: yellow background */
+    background-color: #b4b4b4;
 }
 
 .fifth-slide {
-    background-color: #ffb3e6; /* Example: pink background */
+    background-color: #a5a5a5;
+}
+
+/* Optional: Add padding or margins to the carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+/* Customize carousel inner container */
+.carousel-inner {
+    border: 2px solid #ddd;
+    border-radius: 8px;
 }
